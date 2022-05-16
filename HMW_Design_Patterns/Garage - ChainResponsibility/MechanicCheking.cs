@@ -1,9 +1,9 @@
 ﻿using System;
 namespace HMW_Design_Patterns
 {
-    public class ElectronicChecking : Garage
+    public class MechanicCheking : Garage
     {
-        public ElectronicChecking()
+        public MechanicCheking()
         {
         }
 
@@ -13,7 +13,7 @@ namespace HMW_Design_Patterns
             if (num >= 6)
             {
                 CarNeedRepair = false;
-                Console.WriteLine("Car Don'T Need Repair! You Are Ready to Go! - From Electronic Checking");
+                Console.WriteLine("Car Don'T Need Repair! You Are Ready to Go! - From Mechanic Cheking");
             }
             if (Garage1 != null)
             {
@@ -21,7 +21,7 @@ namespace HMW_Design_Patterns
             }
             else
             {
-                Console.WriteLine("Your Car Is Fix,Without Any Problems,You can Go. - From Electronic Checking");
+                Console.WriteLine("Your Car Is Fix,Without Any Problems,You can Go. - From Mechanic Checking\n");
             }
         }
     }

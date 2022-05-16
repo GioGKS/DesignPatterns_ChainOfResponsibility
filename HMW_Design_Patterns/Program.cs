@@ -7,7 +7,9 @@ namespace HMW_Design_Patterns
     {
         static void Main(string[] args)
         {
-            
+            //Garage Excercise - Chain Responsibility
+            Console.WriteLine("* * * * * * * * GARAGE EXCERCISE * * * * * * * *");
+            Console.WriteLine();
             FirstCheck firstCheck = new FirstCheck();
             MechanicCheking CheckByMechanic = new MechanicCheking();
             ElectronicChecking Electric = new ElectronicChecking();
@@ -30,7 +32,12 @@ namespace HMW_Design_Patterns
             firstCheck.HandleCar(Car4);
             firstCheck.HandleCar(Car5);
 
-
+            //Clock Excercise - Singleton
+            Console.WriteLine("\n");
+            Console.WriteLine("* * * * * * * * CLOCK EXCERCISE * * * * * * * *");
+            Console.WriteLine();
+            var LuxuryClock = Clock.GetClock();
+            LuxuryClock.GetTime();
 
 
 

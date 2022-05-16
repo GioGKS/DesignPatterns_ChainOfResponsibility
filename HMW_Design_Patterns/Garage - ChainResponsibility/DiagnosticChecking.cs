@@ -21,7 +21,7 @@ namespace HMW_Design_Patterns
             }
             else
             {
-                Console.WriteLine("Your Car Is Fix,Without Any Problems,You can Go. - From Diagnostic Checking");
+                Console.WriteLine("Your Car Is Fix,Without Any Problems,You can Go. - From Diagnostic Checking\n");
             }
         }
     }
